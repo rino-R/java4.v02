@@ -1,0 +1,86 @@
+
+
+  .header{
+      padding-top: 250px;
+      text-align: center;
+      overflow: hidden;
+      height: 400px;
+      background-image: url("background.jpg");
+      background-size: cover;
+
+  }
+
+  .contactButton{
+      border-radius: 25pt;
+      padding: 5px 7px;
+      height: 30px;
+      background-color: blueviolet;
+      border-color: blueviolet;
+      color: white;
+      
+  }
+
+  .learButton{
+      border-radius: 25pt;
+      padding: 5px 7px;
+      height: 30px;
+      background-color: darkviolet;
+      border-color: darkviolet;
+      color: white;
+  }
+
+  .header h1{
+      color: whitesmoke;
+  }
+  
+  img {
+    object-fit: cover;
+    opacity: 0.4;
+    background-position: 0%;
+ }
+
+ 
+
+ .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+
+  .flex-container > h2{
+    text-align: center;
+    color: white;
+ }
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+  }
+
+.second-container{
+    text-align: center;
+    height: 100px;
+}
+
+.third-container{
+    height: 200px;
+
+}
+
+.third-container > button{
+    border-radius: 25pt;
+    padding: 5px 7px;
+    height: 30px;
+    background-color: darkviolet;
+    border-color: darkviolet;
+    color: white;
+}
+
+   
+
+  
+  
